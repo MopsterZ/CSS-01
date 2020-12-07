@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background:#fff;
+}
+
+header {
+	margin-bottom:3px;
+	overflow:hidden;
+}
+
+header h1 {
+	float:left;
+}
+
+header a {
+	color: #000000;
+	background-color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	display: inline;
+	width: 100px;
+	text-align: right;
+}
+
+header ul {
+	margin-top:60px;
+	text-align:right;
+}
+
+header li {
+	display: inline;
+	margin-left: 1em;
+}
+
+header ul li a:before {
+	content:url(../image/header_arrow.png);
+	margin-right:3px;
+	margin-bottom:5px;
+}	
+
+#main_img {
+	background-image:url(../image/main_visual.png);
+	background-repeat:no-repeat;
+	height:360px;
+	margin-bottom:50px;
+}
+
+#main_img .main-word {
+	text-align:center;
+	padding-top:120px;
+}
+
+#main_img .main-word h1{
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+#main_img .main-word h1 {
+	font-size:34px;
+}
+
+#main_img .main-word .word-p {
+	font-size:20px;
+	line-height:30px;
+}
+
+#Message-box {
+	line-height:20px;
+	border:solid 1px #000;
+	overflow:hidden;
+}
+
+#Message-box img{
+	float:left;
+	border:solid 1px #000;
+}
+
+#Message-box h2{
+	font-size:30px;
+	background-color:#000;
+	color:#fff;
+	margin-top:10px;
+	padding:10px 10px;
+	display:inline-block;
+}
+
+#Message-box .Message-word {
+	margin-left:20px;
+	margin-top:10px;
+}
+
+#Message-box .Message-word p{
+	font-size:14px;
+}
+
+#Learn h2 {
+	font-size:30px;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.Learn-box {
+	display:flex;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	align-items:flex-start;
+	justify-content:space-around;
+}
+
+.Learn-info {
+	width:300px;
+	margin-right:5px;
+}
+
+.Learn-info img{
+	margin-bottom:20px;
+	margin-top:10px;
+}
+
+.Learn-info h3{
+	text-align:center;
+	font-size:20px;
+}
+
+.Learn-info h3:after{
+	content:url(../image/Learn_line.png);
+}
+
+.Learn-info p{
+	line-height:30px;
+	font-size:14px;
+	text-align:center;
+}
+
+#Find h2 {
+	font-size:30px;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+	
+#Find li {
+	float:left;
+	list-style-type:none;
+	width: 300px;
+	text-align: center;
+	font-size:14px;
+	line-height:18px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#Find {
+	overflow:hidden;
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Staff-box-nav {
+	border:solid 1px #000;
+	overflow:hidden;
+	margin-top:30px;
+}
+
+#Staff-box-nav .Staff-left {
+	width: 196px;
+	padding: 10px 5px 10px;
+	float:left;
+}
+
+#Staff-box-nav .Staff-left h2 {
+	font-size:30px;
+	background-color:#000;
+	color:#fff;
+	margin-top:5px;
+	padding:10px 10px;
+	padding-left:30px;
+	padding-right:20px;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+#Staff-box-nav .Staff-left nav h3 {
+	font-size:12px;
+	border:solid 1px #000;
+	color:#7c7c7c;
+	margin-right:9px;
+	margin-left:10px;
+	padding-left:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+#Staff-box-nav .Staff-left nav h3 a {
+	color:#7c7c7c;
+	text-decoration: none;
+}
+
+#Staff-box-nav .Staff-left nav ul {
+	font-size:14px;
+	padding:10px;
+}
+
+#Staff-box-nav .Staff-left nav ul li {
+	border-bottom: dotted 1px #79caf2;
+	padding-bottom:6px;
+	margin-bottom:6px;
+	padding-left:10px;
+}
+
+#Staff-box-nav .Staff-left nav ul li a:before {
+	content:url(../image/aside.png);
+	margin-right:5px;
+}
+
+#Staff-box-nav .Staff-left nav ul li a {
+	color:#000;
+	text-decoration: none;
+}
+
+#Staff-box-nav .Staff-left nav ul li a:hover {
+	color:#79caf2;
+}
+
+#Staff-box-nav .Staff-right {
+	float:left;
+}
+
+#Staff-box-nav .Staff-right p {
+	text-align:left;
+	font-size:12px;
+}
+
+#Staff-box-nav .Staff-right .time {
+	margin-top:20px;
+}
+
+#Staff-box-nav .Staff-right .New {
+	color:#FF0004;
+}
+
+#Staff-box-nav .Staff-right .topic {
+	text-align:right;
+	color:#afafaf;
+	font-size:12px;
+}
+
+#Staff-box-nav .Staff-right h2 {
+	border-bottom:solid 1px #000;
+	font-size:18px;
+}
+
+#Staff-box-nav .Staff-right .topic-box {
+	margin-top:20px;
+	margin-bottom:50px;
+}
+
+#Staff-box-nav .Staff-right .detail p {
+	font-size:14px;
+	line-height:18px;
+}
+
+#Learn .Learn-link {
+	background-color:#e8e8e8;
+	padding:5px 10px;
+	display:inline-block;
+	border-radius: 30px;
+	margin-left:95px;
+	border:solid 1px #000;
+}
+
+#Learn .Learn-link a {
+	text-decoration:none;
+	color:#000;
+}
+
+#Find .Find-link {
+	margin-top:20px;
+	background-color:#e8e8e8;
+	padding:5px 10px;
+	display:inline-block;
+	border-radius: 30px;
+	margin-left:415px;
+	border:solid 1px #000;
+	width:128px;
+	height:45px;
+}
+
+#Find .Find-link a {
+	text-decoration:none;
+	color:#000;
+}
+
+#Find .Find-01{
+	font-size:20px;
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #ffa853;
+	border-radius: 6px;
+	text-decoration: none;
+	height:110px;
+	text-shadow: 1px 1px 3px #000;
+}
+
+#Find .Find-01 p {
+	font-size:14px;
+	margin-top:20px;
+}
+
+#Find .Find-01 a {
+	text-decoration:none;
+	color: #fff;
+}
+
+#Find .Find-02{
+	font-size:20px;
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #53c24c;
+	border-radius: 6px;
+	text-decoration: none;
+	height:110px;
+	text-shadow: 1px 1px 3px #000;
+}
+
+#Find .Find-02 p {
+	font-size:14px;
+	margin-top:20px;
+}
+
+#Find .Find-02 a {
+	text-decoration:none;
+	color: #fff;
+}
+
+#Find .Find-03{
+	font-size:20px;
+	padding: 5px 10px;
+	display: inline-block;
+	background-color: #568adf;
+	border-radius: 6px;
+	text-decoration: none;
+	height:110px;
+	text-shadow: 1px 1px 3px #000;
+}
+
+#Find .Find-03 p {
+	font-size:14px;
+	margin-top:20px;
+}
+
+#Find .Find-03 a {
+	text-decoration:none;
+	color: #fff;
+}
+
+footer {
+	margin-top:30px;
+}
+
+footer nav ul {
+	font-size: 14px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #000;
+}
+
+footer nav ul a{
+	color:#000;
+	text-decoration: none;
+}
+
+footer nav ul li {
+	display:inline;
+	padding-right:2.9em;
+	margin-right: 0.5em;
+}
+
+footer ul li a:before {
+	content:url(../image/footer.png)
+}
+
+footer p {
+	text-align:right;
+}
